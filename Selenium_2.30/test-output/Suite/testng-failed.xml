@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testng.TestScript6">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="clickOnComputers"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testng.TestScript6 -->
+      <class name="testng.TestScript4">
+        <methods>
+          <include name="clickOnElectronics"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testng.TestScript4 -->
+      <class name="testng.TestScript5">
+        <methods>
+          <include name="login"/>
+          <include name="clickOnBooks"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testng.TestScript5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

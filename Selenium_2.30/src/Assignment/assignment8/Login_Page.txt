@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+ <h1>Login Page</h1><br><br>
+ Username:<input type:"text"><br><br>
+ Password:<input type:"text"><br><br>
+ <button>Login</button>
+ <button>Cancel</button><br><br>
+ 
+ Skills:java<input type="checkbox"><br><br>
+        python<input type="checkbox"><br><br>
+        Selenium<input type="checkbox"><br><br>
+gender:male<input type="radio"
+     name="gender">
+
+       female<input type="radio"
+       name="gender"><br><br>
+
+
+<a href="https://www.flipkart.com/">Flipkart</a><br><br>
+<input type="file">
+
+</body>
+</html>
