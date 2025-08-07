@@ -23,6 +23,8 @@ public class ToLearnClickAndHold {
 		Actions act=new Actions(driver);
 		
 		act.clickAndHold(eyeIcon).perform();
+		act.clickAndHold(eyeIcon).perform();
 	}
 
 }
+
